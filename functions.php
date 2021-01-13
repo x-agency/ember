@@ -18,7 +18,7 @@ define( 'CHILD_THEME_EMBER_VERSION', '1.0.0' );
  */
 function child_enqueue_styles() {
 
-	wp_enqueue_style( 'ember-theme-css', get_stylesheet_directory_uri() . '/dist/main.css', array('astra-theme-css'), CHILD_THEME_EMBER_VERSION, 'all' );
+	wp_enqueue_style( 'ember-theme-css', get_stylesheet_directory_uri() . '/css/main.css', array('astra-theme-css'), CHILD_THEME_EMBER_VERSION, 'all' );
 	wp_enqueue_style( 'google-font', 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 	wp_enqueue_style( 'google-font-prata', 'https://fonts.googleapis.com/css2?family=Prata&display=swap');
 	wp_enqueue_style( 'fontawesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
