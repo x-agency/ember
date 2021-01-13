@@ -20,11 +20,13 @@ body {
         position: fixed;
     }
 }
+
 /* Sass we write */
 .navbar {
     position: fixed;
     top: 0;
     @include admin-sticky-fix;
+
     @include respond-below(md) {
         flex-wrap: nowrap;
     }
@@ -42,6 +44,7 @@ a:hover {
     outline: none;
     border: 0;
 }
+
 // .admin-bar .site-content {
 //     padding-top: 32px;
 // }
@@ -56,6 +59,7 @@ a {
         text-decoration: none;
     }
 }
+
 /****Coming Soon****/
 p {
     color: #5a6771;
@@ -67,7 +71,7 @@ p {
     background-size: cover;
     height: 100vh;
 
-    > img {
+    >img {
         max-width: 400px;
         min-width: 200px;
         left: 50%;
@@ -406,7 +410,7 @@ p {
         margin-bottom: 2em;
     }
 
-    .with_frm_style .frm_form_fields > fieldset {
+    .with_frm_style .frm_form_fields>fieldset {
         padding: 0;
     }
 
@@ -469,6 +473,7 @@ p {
         cursor: pointer;
     }
 }
+
 @media (max-width: 1500px) {
     .main {
         /*padding-right: 7rem;*/
@@ -492,6 +497,7 @@ p {
         bottom: 3.95vw;
     }
 }
+
 @media (max-width: 1200px) {
     .coming-soon {
         min-height: 100vh;
@@ -549,6 +555,7 @@ p {
     }
 
     .popup {
+
         //padding: 0 calc(min(4rem, 7vw));
         .frm_form_field {
             padding: 0 calc(min(4rem, 7vw));
@@ -565,6 +572,7 @@ p {
         .frm_style_formidable-style.with_frm_style .frm_error_style {
             margin: 0 calc(min(4rem, 7vw));
         }
+
         /*#form_comingsoon-popup .frm_button_submit {
             position: relative;
             margin-top: 1em;
@@ -576,6 +584,7 @@ p {
         }*/
     }
 }
+
 @media (max-width: 921px) {
     .popup #form_comingsoon-popup .frm_button_submit {
         bottom: -3.75em;
@@ -586,6 +595,7 @@ p {
         right: -46em;
     }
 }
+
 @media (max-width: 770px) {
     .flame svg {
         bottom: -15rem;
@@ -599,7 +609,9 @@ p {
         display: none;
     }
 }
+
 @media (max-width: 600px) {
+
     .popup .frm_half:nth-of-type(5),
     .popup .frm_half:nth-of-type(6) {
         padding: 0 calc(min(4rem, 7vw));
@@ -614,6 +626,7 @@ p {
         right: -77.5vw;
     }
 }
+
 @media (max-width: 550px) {
     br {
         display: none;
@@ -668,6 +681,7 @@ p {
     }
 
     .popup {
+
         h1,
         h1 span {
             font-size: 2.5rem;
@@ -694,4 +708,8 @@ p {
 
 .push-test {
     color: red;
+}
+
+.shawn-test {
+    color: teal;
 }
