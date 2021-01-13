@@ -1,0 +1,97 @@
+// Colors
+$ob-blue: #2f233b;
+$ob-red: #a25e47;
+$ob-pink: #c89486;
+$ob-pink-light: #d8c9b4; // Fonts
+@font-face {
+    font-family: "BonVivantSerif";
+    src: url("/wp-content/themes/clutch/fonts/BonVivantSerif.woff") format("woff");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FoundersGroteskRegular";
+    src: url("/wp-content/themes/clutch/fonts/FoundersGroteskRegular.woff") format("woff");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AnnetteBradfordDEMO";
+    src: url("/wp-content/themes/clutch/fonts/AnnetteBradfordDEMO.woff") format("woff");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin header-font {
+    font-family: 'PoynterOSDisp Roman';
+}
+@mixin body-font {
+    font-family: 'Poppins', sans-serif;
+}
+@mixin italic-font {
+    font-family: 'PoynterOSTextOne';
+}
+
+.special {
+    @include italic-font;
+    font-style: italic;
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 5rem;
+
+    span {
+        font-size: 75px;
+    }
+}
+
+h2 {
+    @include header-font;
+    font-style: normal;
+    font-size: 34px;
+    color: $ob-red;
+    @include respond-below(md) {
+        font-size: 30px;
+    }
+}
+
+p {
+    @include body-font;
+    font-size: 16px;
+    line-height: 2.2rem;
+    font-style: normal;
+    font-weight: 400;
+    color: $ob-blue;
+}
+
+.sub-text {
+    font-family: 'sweet-sans-pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: $clutch-purple-light;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    @include respond-below(md) {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.sub-text-2 {
+    font-family: sweet-sans-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: $clutch-purple-light;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    @include respond-below(md) {
+        text-align: center;
+    }
+}

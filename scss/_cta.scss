@@ -1,0 +1,127 @@
+.page-template-home #cta {
+    margin-top: -100px;
+    @include respond-below(md) {
+        margin-top: 0;
+    }
+}
+
+#cta {
+    margin-bottom: 100px;
+    @include respond-below(md) {
+        padding: 10% 0;
+    }
+
+    .cta-block {
+        display: flex;
+        padding: 50px;
+        height: 100%;
+        flex-wrap: wrap;
+        transition: 0.3s ease;
+
+        &:hover {
+            filter: drop-shadow(13px 8px 14px rgba(0,0,0,0.45));
+            -webkit-filter: drop-shadow(13px 8px 14px rgba(0,0,0,0.45));
+            -moz-filter: drop-shadow(13px 8px 14px rgba(0,0,0,0.45));
+            border: 0;
+            transition: 0.5s ease;
+            transform: translateY(-8px);
+            cursor: pointer;
+        }
+    }
+
+    .cta-subtitle {
+        font-family: sweet-sans-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .cta-title {
+        @include header-font;
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .cta-block-1 {
+        background-color: #c6cdc9;
+        background-image: url("/wp-content/themes/clutch/img/cta-bg-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+
+        &:hover {
+            .cta-btn {
+                background-color: #a17de9;
+                transition: 0.3s ease;
+            }
+
+            .cta-subtitle,
+            .cta-title {
+                color: $clutch-purple;
+                transition: 0.3s ease;
+            }
+        }
+
+        .cta-subtitle,
+        .cta-title {
+            color: $clutch-purple-dark;
+            text-align: center;
+            width: 100%;
+            transition: 0.3s ease;
+        }
+
+        .cta-btn-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .cta-block-2 {
+        background-color: #c6cdc9;
+        background-image: url("/wp-content/themes/clutch/img/cta-bg-2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+
+        &:hover {
+            .cta-btn {
+                background-color: #a17de9;
+                transition: 0.3s ease;
+            }
+        }
+
+        .cta-subtitle,
+        .cta-title {
+            color: white;
+        }
+
+        .cta-title {
+            @include respond-above(lg) {
+                width: 45%;
+            }
+        }
+    }
+
+    .cta-btn-wrapper {
+        margin-top: 20px;
+        width: 100%;
+        align-self: flex-end;
+
+        .cta-btn {
+            background: #f16148;
+            width: auto;
+            display: inline-block;
+            padding: 14px 16px;
+            border-radius: 50%;
+            transition: 0.3s ease;
+
+            .fa {
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
