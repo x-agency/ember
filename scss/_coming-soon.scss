@@ -3,13 +3,23 @@
     color: #5a6771;
 }
 
+.page-template-coming-soon {
+
+    .navbar,
+    #EmberFooter {
+        display: none;
+    }
+
+
+}
+
 .coming-soon {
     background-image: url("/wp-content/themes/ember/img/splash-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
-    >img {
+    img {
         max-width: 400px;
         min-width: 200px;
         left: 50%;
@@ -58,6 +68,7 @@
             //font-size: 14em;
             font-size: 11vw;
             letter-spacing: -5px;
+            font-style: italic;
         }
 
         h2 {
@@ -69,6 +80,8 @@
             width: 20ch;
             top: 1.75em;
             left: 2.25em;
+            @include header-font;
+            color: #40454b
         }
     }
 
@@ -541,7 +554,7 @@
         right: -35em;
     }
 
-    br {
+    .page-template-coming-soon br {
         display: none;
     }
 }
@@ -564,7 +577,7 @@
 }
 
 @media (max-width: 550px) {
-    br {
+    .page-template-coming-soon br {
         display: none;
     }
 
@@ -583,6 +596,8 @@
         div {
             h1 {
                 font-size: calc(min(27vw, 115px));
+                @include header-font;
+                font-style: italic !important;
             }
 
             h2 {
