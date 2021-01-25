@@ -37,12 +37,19 @@ if ( ! defined( 'ABSPATH' ) ) {
     </div>
     <div class="footer-bottom row">
         <div class="footer-address footer-info">
-            <span>Ember Modern Medicine</span> <br>1068 North Church Street, <br>Greenville, SC 29601
+            <span>Ember Modern Medicine</span> <br>1068 North Church Street <br>Greenville, SC 29601
         </div>
         <div class="footer-contact footer-info">
             <span>Email:</span><br> <a
                 href="mailto:hello@embermodernmedicine.com">hello@embermodernmedicine.com</a><br><span>Phone:</span> <a
-                href="tel:8647022365">+864-702-2365</a>
+                href="tel:8647022365">864-702-2365</a>
+        </div>
+        <div class="footer-contact footer-info">
+            <span>Stay Connected</span><br>
+            <div class="social-link"><a href="https://www.facebook.com/EmberModernMedicine/" target="_blank"><i
+                        class="bi bi-facebook"></i></a></div>
+            <div class="social-link"><a href="https://www.instagram.com/embermodernmedicine/" target="_blank"><i
+                        class="bi bi-instagram"></i></a></div>
         </div>
         <div class="icon">
 
@@ -79,8 +86,10 @@ if ( ! defined( 'ABSPATH' ) ) {
                 </div>
                 <div class="mobile-patients"><a class="btn" href="">For Patients <i class="bi bi-person-fill"></i></a>
                 </div>
-                <div class="mobile-call"><a href="tel:8647022365"><img src="/wp-content/themes/ember/img/call-icon.png"
-                            alt=""></a></div>
+                <div class="mobile-patients"><a class="btn" href="">Become A Member </a>
+                </div>
+                <!-- <div class="mobile-call"><a href="tel:8647022365"><img src="/wp-content/themes/ember/img/call-icon.png"
+                            alt=""></a></div> -->
                 <div class="menu-flame"><img src="/wp-content/themes/ember/img/svg/flame-icon.svg" alt=""></div>
             </div>
         </div>

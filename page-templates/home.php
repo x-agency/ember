@@ -21,7 +21,7 @@
                 <div class="header-slider">
                     <img class="w-100" src="/wp-content/themes/ember/img/hero-img.jpg" alt="">
                     <div class="explore-btn">
-                        <a href="">Explore Ember <i class="ml-2 fa fa-chevron-right"></i>
+                        <a href="#ember-experience">Explore Ember <i class="ml-2 fa fa-chevron-right"></i>
 
                             </i>
                         </a>
@@ -39,26 +39,27 @@
 <section id="ember-experience">
     <div class="container">
         <div class="row">
-            <div class="col-12"><img src="/wp-content/themes/ember/img/e-flame.png" alt=""></div>
+            <div class="col-12 text-md-left text-center"><img src="/wp-content/themes/ember/img/e-flame.png" alt="">
+            </div>
             <div class="col-12">
                 <h1>Introducing <span>Ember</span>.</h1>
             </div>
             <div class="col-12">
-                <h3>A <span>member-based, direct primary care practice</span> focused on a more comprehensive, personal
+                <h3>A <span>member-based, direct primary care practice</span> focused on a comprehensive, personal
                     approach to medicine.</h3>
             </div>
         </div>
         <div class="row intro-grid">
             <div class="col-md-4 intro-grid-item">
                 <div class="grid-img"><img src="/wp-content/themes/ember/img/intro-img-1.jpg" alt=""></div>
-                <div class="grid-title"><span>Member-first</span> Care.</div>
+                <div class="grid-title"><span>Member-First</span> Care.</div>
                 <div class="grid-number">
                     <div class="number">1</div>
                 </div>
             </div>
             <div class="col-md-4 intro-grid-item">
                 <div class="grid-img"><img src="/wp-content/themes/ember/img/intro-img-2.jpg" alt=""></div>
-                <div class="grid-title"><span>Whole-person</span> Approach.</div>
+                <div class="grid-title"><span>Whole-Person</span> Approach.</div>
                 <div class="grid-number">
                     <div class="number">2</div>
                 </div>
@@ -77,23 +78,29 @@
                 <div class="heart-icon"><img src="/wp-content/themes/ember/img/svg/heart-icon.svg" alt=""></div>
             </div>
             <div class="col-md-6 block-1">
-                <p>As a pioneer in personalized medicine, Ember brings a fresh new perspective to
-                    <span>relationship-based healthcare</span>. To help guide you to your best health, we start by
-                    getting to know you and understanding your full lifestyle spectrum in order to treat the whole
-                    person
-                    and not just symptoms or disease.
-                    Plus, our transformative approach in offering <span>member-based direct primary care</span> to our
-                    clients is a
-                    revolutionary idea that should be common place.
-                </p>
+                <p>It’s become all too easy to poke holes in today’s healthcare system. Patients routinely complain of
+                    feeling like a specimen rather than a human being, inadequate care, and erroneous billing. We all
+                    know it doesn’t have to be that way, but aren’t quite sure where to go for an alternative. That’s
+                    why we created Ember Modern Medicine.</p>
+                <p>At Ember, we’re returning to the roots of one-on-one care between doctor and patient when practicing
+                    medicine was truly relational and personal. We’re bringing a fresh new perspective to Greenville and
+                    building a community of members who believe that their health is priority. Becoming a member of the
+                    Ember family provides so much more for your overall health. Imagine a primary practice that removes
+                    the barriers to better health: <span>Unlimited access to your doctor</span> and <span>the latest in
+                        private medicine</span>. No long wait for appointments. No expensive insurance required. And no
+                    copays…ever.</p>
             </div>
             <div class="col-md-6">
-                <p>Our clear, up-front membership cost with zero copays creates a <span>simple and stress-free
-                        healthcare experience</span>. With Ember, our focus is clear—to empower your health by removing
-                    the barriers to your care provider. Trade the typical 15-minute annual visits found with
-                    traditional doctors for longer, more meaningful time designed to meet your health needs and goals.
-                    This is what true medical care
-                    was designed to be—<span>complete access and personal attention when it matters most</span>.</p>
+                <p>We bring together multi-faceted healthcare in one location through services provided by our providers
+                    together under one roof. We serve patients in all situations and stages of life. We provide care for
+                    all ages, birth to elderly, and offer disciplines that include medical-complimentary care. We offer
+                    office visits, walk-ins, virtual visits, and home visits, as well as corporate programs for your
+                    business.</p>
+                <p>If you’re looking for something different to empower you on your health journey, then Ember is
+                    designed just for you. Our <span>transparent, up-front monthly membership</span> creates a simple
+                    and stress-free healthcare experience. We’ve put the relationship between you and your doctor back
+                    at the heart of health. We’re revolutionizing healthcare one member at a time and building a
+                    community for better health.</p>
             </div>
         </div>
     </div>
@@ -117,8 +124,9 @@
         </div>
         <div class="row mx-0">
             <div class="quote-block">
-                “Our focus from day one is to provide a more meaningful experience in your health journey to ignite a
-                passion for the destination.” <span>—Dr. Blank<span>
+                “Our focus from day one is to change the way healthcare happens here in Greenville -- respectful,
+                affordable, and caring. It's a better experience for everyone, just how medicine should be.” <span>—Dr.
+                    Blank<span>
             </div>
         </div>
     </div>
@@ -128,13 +136,14 @@
         <div class="row member-benefits member m-0">
             <div class="benefits-left">
                 <div class="about-title">
-                    <h1><span>People-Centered</span>.<br> Transformative <br>Health.
+                    <h1><span>People-Centered</span>.<br> Transformative <br>Care.
                     </h1>
                 </div>
                 <img class="img-fluid" src="/wp-content/themes/ember/img/home-img-1.jpg" alt="">
                 <div class="about-flame"><img src="/wp-content/themes/ember/img/svg/flame-icon.svg" alt=""></div>
 
-                <div class="about-btn"><a href="">I'm Interested <i class="ml-2 fa fa-chevron-right"></i></a></div>
+                <div class="about-btn"><a href="#membership">I'm Interested <i class="ml-2 fa fa-chevron-right"></i></a>
+                </div>
             </div>
             <div class="member-block">
                 <div class="member-title">Member Privileges:</div>
@@ -150,15 +159,15 @@
                 </div>
                 <div class="member-content">
                     <div class="icon"><img src="/wp-content/themes/ember/img/member-icon-3.png" alt=""></div>
-                    <div class="title">Clear, Up-front Cost</div>
+                    <div class="title">Clear, Up-Front Cost</div>
                     <div class="text">No hassle. No copays. Our members pay a flat monthly fee for access to all of
                         Ember’s services.</div>
                 </div>
-                <div class="special">*Home visits upon request; additional charges may apply</div>
+                <div class="special">*Home visits upon request; additional charges may apply.</div>
             </div>
         </div>
-        <div class="row member-services member">
-            <div class="member-block">
+        <div class="row member-services member ">
+            <div class="member-block order-2 order-md-1">
                 <div class="member-title">Member Services:</div>
                 <div class="services-list">
                     <ul class="list-unstyled">
@@ -176,7 +185,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="services-right">
+            <div class="services-right order-1 order-md-2">
                 <div class="services-title">
                     <h1>We <span>Invite</span> You <br>To Explore <br>the Difference.
                     </h1>
@@ -199,7 +208,7 @@
             <div class="price-item">
                 <div class="price-title"><span>MONTHLY</span> Membership</div>
                 <div class="price-number">$100<span>/mo</span></div>
-                <div class="price-billed">Billed in twelve monthly installments</div>
+                <div class="price-billed">Billed monthly</div>
                 <div class="price-text">
                     <p><span>Children 0-17:</span> $20/month with at least one parent membership</p>
                     <p>*Family discounts available</p>
@@ -211,7 +220,7 @@
             <div class="price-item">
                 <div class="price-title"><span>ANNUAL</span> Membership</div>
                 <div class="price-number">$80<span>/mo</span></div>
-                <div class="price-billed">Billed in twelve monthly installments</div>
+                <div class="price-billed">One month FREE</div>
                 <div class="price-text">
                     <p><span>Children 0-17:</span> $20/month with at least one parent membership</p>
                     <p>*Family discounts available</p>
@@ -220,21 +229,19 @@
                         target="_Blank">Early Sign Up</a></div>
             </div>
             <div class="price-item">
-                <div class="price-title"><span>MONTHLY</span> Membership</div>
+                <div class="price-title"><span>BUSINESS</span> Membership</div>
                 <div class="price-number">Contact Us</div>
                 <div class="price-text">
-                    <p>Ember offers comprehensive packages for business looking to provide employees with a better
-                        alternative to traditional healthcare.</p>
+                    <p>Ember offers comprehensive packages for business looking to provide employees with an amazing
+                        health benefit.</p>
                     <p>Reach out to us to learn more and to get pricing.</p>
                 </div>
-                <div class="price-btn"><a class="btn" href="https://embermodernmedicine.hint.com/signup/membership"
-                        target="_Blank">Early Sign Up</a></div>
+                <div class="price-btn"><a class="btn" href="/contact">Early Sign Up</a></div>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <p class="price-note">$200 re-registration fee for members who cancel and re-enroll within less than 18
-                    months </p>
+                <p class="price-note">*Two month minimum required for monthly plan.</p>
             </div>
         </div>
     </div>
@@ -242,24 +249,41 @@
 <section id="membership-advantages">
     <div class="container">
         <div class="row advantages">
-            <div>
-                <h2>Membership Has Its Advantages.</h1>
-                    <h3>Curious about how our membership pricing compares to the average cost of current medical care?
-                        <a href="/contact">Let us show you.</i></a>
-                    </h3>
-            </div>
-            <div class="advantage-arrow">
-                <i class="fa fa-chevron-right fa-lg"></i>
+            <div class="header" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                aria-controls="collapseOne">
+                <h2>Membership Has Its Advantages.</h2>
+                <h3>Curious about how our membership pricing compares to the average cost of current medical care?
+                    <a>Let us show you.</a>
+                </h3>
+                <div class="advantage-arrow">
+                    <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>This is the first item's accordion body. It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                            can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting
+                            that just about any HTML can go within the .accordion-body, though the transition
+                            does limit overflow.</p>
+                    </div>
+                </div>
             </div>
 
+
         </div>
+
     </div>
 </section>
 <section id="cta">
     <div class="container">
         <div class="cta-block">
             <div class="cta-text">
-                <h1>Interested to <br><span>learn more</span>?</h1>
+                <h1>Interested in <br><span>learning more</span>?</h1>
                 <p>We’re not quite ready to open the doors just yet, but we’re getting everything ready for you and will
                     be launching Ember Modern Medicine in <span>early 2021.</span></p>
                 <p>If you’d like to be one of the first to get early sign-up pricing and want to receive updates as we

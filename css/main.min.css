@@ -984,8 +984,8 @@ a.text-dark:hover,a.text-dark:focus{color:#1d2124 !important}
 .invisible{visibility:hidden !important}
 @font-face{font-family:'Berlingske Serif';src:url("/wp-content/themes/ember/fonts/BerlingskeSerif-Lt.eot");src:local("☺"),url("/wp-content/themes/ember/fonts/BerlingskeSerif-Lt.woff") format("woff"),url("/wp-content/themes/ember/fonts/BerlingskeSerif-Lt.ttf") format("truetype"),url("/wp-content/themes/ember/fonts/BerlingskeSerif-Lt.svg") format("svg");font-weight:normal;font-style:normal}
 @font-face{font-family:'Berlingske Serif';src:url("BerlingskeSerif-Italic.woff2") format("woff2"),url("BerlingskeSerif-Italic.woff") format("woff");font-weight:normal;font-style:italic;font-display:swap}
-h1{font-family:'Berlingske Serif';font-style:normal;font-weight:400;font-style:normal;font-size:47px;line-height:5rem}
-h1 span{color:#be5023;font-style:italic;font-weight:300}
+h1{font-family:'Berlingske Serif';font-style:normal;font-weight:400;font-style:normal;font-size:37px;line-height:5rem}
+h1 span{color:#be5023;font-style:italic;font-weight:300;font-size:40px}
 h2{font-family:'Poppins',sans-serif;color:#be5023;font-size:30px}
 h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:17px;color:#5a6771}
 h3 span{color:#be5023}
@@ -1000,7 +1000,7 @@ p{font-family:'Poppins',sans-serif;font-size:18px;line-height:22px;font-style:no
 .navbar.scrolled .nav-right .patients{color:#fff5ef}
 .modal-open .navbar.scrolled{background-color:#2f1d57;-webkit-transition:.3s ease;transition:.3s ease;-webkit-box-shadow:0 10px 22px 0 rgba(0,0,0,0);box-shadow:0 10px 22px 0 rgba(0,0,0,0)}
 #navbarNav{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.navbar{width:100%;z-index:9999;-webkit-transition:.3s ease;transition:.3s ease;position:fixed;top:0;padding:0 0 5px 0}
+.navbar{width:100%;z-index:9999;-webkit-transition:.3s ease;transition:.3s ease;position:fixed;top:0;padding:0 0 4px 0}
 .navbar:before{height:0;-webkit-transition:.3s ease all;transition:.3s ease all}
 .navbar .container-fluid{padding:0;z-index:1}
 .navbar .nav-right{display:-webkit-box;display:-ms-flexbox;display:flex;font-family:'Source Sans Pro',sans-serif;font-weight:600;color:#133738;font-size:18px}
@@ -1121,10 +1121,10 @@ a:hover{text-decoration:none}
 #meet-brian .quote-block span{font-size:20px;color:#be5023}
 #about-member{margin:100px 0}
 #about-member .member .benefits-left{margin-left:18%;position:relative;display:inline-table}
-#about-member .member .benefits-left .about-flame{position:absolute;top:-75px;left:-100px;width:35%}
+#about-member .member .benefits-left .about-flame{position:absolute;top:-75px;left:-100px;width:35%;z-index:-1}
 #about-member .member .benefits-left .about-flame img{width:100%}
 #about-member .member .benefits-left .about-title{position:absolute;top:50%;left:-50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
-#about-member .member .benefits-left .about-title h1{font-size:3.75vw;line-height:3.75vw}
+#about-member .member .benefits-left .about-title h1{font-size:3.75vw;line-height:3.75vw;z-index:1}
 #about-member .member .benefits-left .about-btn a{position:absolute;bottom:0;left:0;z-index:2;padding:20px 55px;background-color:#fff5ef;color:#be5023;-webkit-transition:.3s ease all;transition:.3s ease all;font-family:'Source Sans Pro',sans-serif;font-weight:600;font-size:20px}
 #about-member .member .benefits-left .about-btn a:hover{-webkit-transition:.3s ease all;transition:.3s ease all;background-color:#be5023;color:#fff5ef}
 #about-member .member .member-block{margin:20px 0 0 50px;width:25%}
@@ -1154,12 +1154,15 @@ a:hover{text-decoration:none}
 #membership .pricing-grid .price-item .price-text p span{font-weight:600}
 #membership .pricing-grid .price-item .price-btn a{background-color:#be5023;font-weight:600;padding:15px 50px;border-radius:5px;color:#fff5ef;-webkit-transition:.3s ease all;transition:.3s ease all}
 #membership .pricing-grid .price-item .price-btn a:hover{background-color:#133738;-webkit-transition:.3s ease all;transition:.3s ease all}
-.advantages{width:90%;margin:0 auto;border-top:1px solid #d5e5ef;border-bottom:1px solid #d5e5ef;padding:45px 0;position:relative}
-.advantages .advantage-arrow{margin-left:30px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute;right:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
-.advantages .advantage-arrow i{color:#be5023}
-.advantages h3{color:#133738;font-weight:400;font-size:18px}
-.advantages h3 a{color:#be5023;-webkit-transition:.3s ease all;transition:.3s ease all}
-.advantages h3 a:hover{-webkit-transition:.3s ease all;transition:.3s ease all;color:#133738}
+#membership-advantages .advantages{width:90%;margin:0 auto;border-top:1px solid #d5e5ef;border-bottom:1px solid #d5e5ef;padding:45px 0;position:relative}
+#membership-advantages .advantages .header:hover{cursor:pointer}
+#membership-advantages .advantages .header #collapseOne{margin-top:40px}
+#membership-advantages .advantages .header[aria-expanded="true"] .advantage-arrow i{-webkit-transform:rotate(90deg);transform:rotate(90deg);-webkit-transition:.3s easea all;transition:.3s easea all}
+#membership-advantages .advantages .advantage-arrow{margin-left:30px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute;right:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+#membership-advantages .advantages .advantage-arrow i{color:#be5023;-webkit-transition:.3s easea all;transition:.3s easea all}
+#membership-advantages .advantages h3{color:#133738;font-weight:400;font-size:18px}
+#membership-advantages .advantages h3 a{color:#be5023;-webkit-transition:.3s ease all;transition:.3s ease all;cursor:pointer}
+#membership-advantages .advantages h3 a:hover{-webkit-transition:.3s ease all;transition:.3s ease all;color:#133738}
 #cta{margin:75px 0}
 #cta .cta-block{background-image:url("/wp-content/themes/ember/img/cta-img.jpg");padding:8% 5%;background-color:#ede1da;background-position:right;background-repeat:no-repeat}
 #cta .cta-block .cta-text{width:45%}
@@ -1170,7 +1173,7 @@ a:hover{text-decoration:none}
 #cta .cta-block .cta-text button:hover{background-color:#133738;-webkit-transition:.3s ease all;transition:.3s ease all}
 #EmberFooter{margin:100px auto}
 #EmberFooter .footer-top{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:95%;margin:0 auto;padding:0 0 75px 0;border-bottom:1px solid #d5e5ef;position:relative}
-#EmberFooter .footer-top .call-btn{position:absolute;right:-200px}
+#EmberFooter .footer-top .call-btn{position:absolute;display:none;right:-200px}
 #EmberFooter .footer-top .footer-logo img{width:230px}
 #EmberFooter .footer-top .footer-links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 #EmberFooter .footer-top .footer-links ul{margin:0}
@@ -1179,9 +1182,11 @@ a:hover{text-decoration:none}
 #EmberFooter .footer-top .footer-links ul li:last-child{margin-right:0}
 #EmberFooter .footer-bottom{margin:75px auto 100px;width:95%}
 #EmberFooter .footer-bottom .footer-info{font-family:'Poppins',sans-serif;line-height:2rem;color:#656366;font-size:18px}
+#EmberFooter .footer-bottom .footer-info .social-link{display:inline-block;margin-right:10px}
 #EmberFooter .footer-bottom .footer-info a{-webkit-transition:.3s ease all;transition:.3s ease all}
 #EmberFooter .footer-bottom .footer-info a:hover{-webkit-transition:.3s ease all;transition:.3s ease all;color:#be5023}
-#EmberFooter .footer-bottom .footer-info:first-child{margin-right:125px}
+#EmberFooter .footer-bottom .footer-info a i:before{font-size:24px;color:#be5023}
+#EmberFooter .footer-bottom .footer-info:nth-child(-n+2){margin-right:125px}
 #EmberFooter .footer-bottom .footer-info span{color:#ca8763;font-weight:600}
 #contact-header{margin-top:200px;position:relative;z-index:2}
 #contact-form{margin-top:100px}
@@ -1198,7 +1203,7 @@ a:hover{text-decoration:none}
 .modal .modal-dialog .modal-content .mobile-close{position:absolute;top:40px;right:50px}
 .modal .modal-dialog .modal-content .mobile-close:hover{cursor:pointer}
 .modal .modal-dialog .modal-content .mobile-patients{text-align:center;position:relative;z-index:1;margin:20px 0}
-.modal .modal-dialog .modal-content .mobile-patients a{background-color:#133738}
+.modal .modal-dialog .modal-content .mobile-patients a{background-color:#133738;min-width:253px}
 .modal .modal-dialog .modal-content .mobile-call{text-align:center;margin:10px 0 0;position:relative;z-index:2}
 .modal .modal-dialog .modal-content .menu-flame{position:absolute;opacity:.5;bottom:-20%}
 .modal .modal-dialog .modal-content .menu-flame img{width:500px;bottom:0}
@@ -1207,7 +1212,7 @@ a:hover{text-decoration:none}
 .modal .modal-dialog .modal-content .mobile-menu .mobile-logo a svg{width:150px}
 .modal .modal-dialog .modal-content .mobile-menu .mobile-logo a svg path{fill:white}
 .modal .modal-dialog .modal-content .mobile-menu #menu-main-1{margin:0 !important;text-align:center}
-.modal .modal-dialog .modal-content .mobile-menu #menu-main-1 li{font-size:22px;font-weight:600;font-family:'Poppins',sans-serif;color:#be5023;background-color:#d5e5ef;width:50%;border-radius:20px;margin:10px auto}
+.modal .modal-dialog .modal-content .mobile-menu #menu-main-1 li{font-size:22px;font-weight:600;font-family:'Poppins',sans-serif;color:#be5023;background-color:#d5e5ef;width:50%;border-radius:4px;margin:10px auto}
 .modal .modal-dialog .modal-content .mobile-menu #menu-main-1 li a:hover{color:#133738}
 .bi-person-fill::before{content:"\f4b3";-webkit-transform:translatey(-2px);transform:translatey(-2px)}
 .bi-x-circle-fill::before{content:"\f5e6";font-size:40px;color:white}
@@ -1725,7 +1730,7 @@ a:hover{text-decoration:none}
 .text-lg-right{text-align:right !important}
 .text-lg-center{text-align:center !important}
 .navbar .nav-right .menu-btn{display:none}
-.intro-text{margin:200px 0 40px}
+.intro-text{margin:100px 0 40px}
 .intro-text .block-1 p{padding-right:35px}
 #about-member .member .member-block .member-content .text{padding-right:50px}
 #about-member .member .special{padding-right:50px}
@@ -1889,9 +1894,8 @@ a:hover{text-decoration:none}
 .text-xl-left{text-align:left !important}
 .text-xl-right{text-align:right !important}
 .text-xl-center{text-align:center !important}
-}@media(min-width:1299px){.home-hero{height:100vh}
 }@media(min-width:1650px){.container{max-width:70%}
-}@media(max-width:1770px){.advantages .advantage-arrow{right:-30px}
+}@media(max-width:1770px){#membership-advantages .advantages .advantage-arrow{right:-30px}
 }@media(max-width:1750px){#meet-brian .meet-wrapper .brian-img{left:10px}
 }@media(max-width:1680px){#about-member .member .member-block{width:27%}
 }@media(max-width:1649px){#about-member .member .benefits-left{width:40%}
@@ -1935,33 +1939,39 @@ a:hover{text-decoration:none}
 }@media(max-width:991.98px){.table-responsive-lg{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar}
 .table-responsive-lg>.table-bordered{border:0}
 .navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{padding-right:0;padding-left:0}
-}@media(max-width:991px){.navbar .nav-right .patients{display:none}
+}@media(max-width:991px){h1{line-height:35px;text-align:center}
+h3{text-align:center}
+.navbar .nav-right .patients{display:none}
 .navbar .nav-right .member-btn{display:none}
 .navbar{padding:3%}
 .navbar .navbar-brand{padding-left:25px}
-.home-hero .header-wrapper{margin:0 0 100px}
+.home-hero .header-wrapper{margin:0 0 100px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .home-hero .header-wrapper{margin-bottom:100px}
 .home-hero .header-wrapper .header-title{position:relative;-webkit-transform:translateY(0);transform:translateY(0);left:0;top:0;padding:5% 10%}
-.home-hero .header-wrapper .header-title h1{font-size:32px !important;line-height:35px !important}
+.home-hero .header-wrapper .header-title h1{font-size:37px !important;line-height:35px !important;text-align:center}
 .home-hero .header-wrapper .header-slider-wrapper{padding:0}
 .home-hero .header-wrapper .header-slider-wrapper{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
 .home-hero .header-wrapper .header-slider-wrapper .slider-bottom-text{font-size:18px}
 .home-hero .header-wrapper .header-slider-wrapper .slider-bottom-text span{font-size:18px}
 .home-hero .header-wrapper .header-slider-wrapper .slider-bottom-text span{font-size:18px !important}
 .intro-grid .intro-grid-item{margin-bottom:50px}
+.intro-text .heart-icon{display:none}
 #meet-brian .meet-wrapper{margin:200px 0 75px}
 #meet-brian .meet-wrapper .meet-inner{width:100%;margin:0}
+#meet-brian .meet-wrapper .meet-inner p{text-align:center}
 #meet-brian .meet-wrapper .brian-img{top:-125px;left:50% !important;width:150px !important;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}
 #meet-brian .quote-block{font-size:20px;line-height:24px}
+#about-member{margin:100px 0 0}
 #about-member .member .benefits-left{width:100% !important;margin:0}
 #about-member .member .benefits-left .about-title{position:relative;left:0;top:0;-webkit-transform:translateY(0);transform:translateY(0);font-size:30px}
-#about-member .member .benefits-left .about-title h1{font-size:30px;line-height:34px}
+#about-member .member .benefits-left .about-title h1{font-size:37px;line-height:35px}
 #about-member .member .benefits-left .about-btn{display:none}
 #about-member .member .member-block{width:100%;margin:25px 0}
 #about-member .member .services-right img{width:100%}
 #about-member .member.member-services{margin-top:50px}
 #about-member .member.member-services .services-title{position:relative;top:0;-webkit-transform:translateY(0);transform:translateY(0)}
-#about-member .member.member-services .services-title h1{font-size:32px;line-height:34px;padding:0 5%;text-align:center}
+#about-member .member.member-services .services-title h1{font-size:37px;line-height:35px;padding:0 5%;text-align:center}
+#membership{margin:50px 0}
 #membership h1{font-size:36px;line-height:39px}
 #membership .pricing-grid .price-item{width:100%;margin-bottom:50px}
 #cta .cta-block .cta-text h1{font-size:36px;line-height:38px}
@@ -1973,6 +1983,7 @@ a:hover{text-decoration:none}
 #EmberFooter .footer-top .footer-links ul li{width:100%;margin:0}
 #EmberFooter .footer-bottom{margin:30px auto 50px}
 #EmberFooter .footer-bottom .footer-info{text-align:center;margin:20px auto !important}
+#contact-header{margin-top:100px}
 #contact-form .contact-form-wrapper{margin-top:60px}
 #contact-form .contact-img-block .contact-flame img{width:400px}
 }@media(max-width:921px){.popup #form_comingsoon-popup .frm_button_submit{bottom:-3.75em}

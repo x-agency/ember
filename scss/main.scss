@@ -82,7 +82,7 @@ a {
 
 .home-hero {
     @media (min-width: 1299px) {
-        height: 100vh;
+        // height: 100vh;
     }
 
     width: 100%;
@@ -96,6 +96,7 @@ a {
 
         @include respond-below(md) {
             margin: 0 0 100px;
+            justify-content: center;
         }
 
         @include respond-below(md) {
@@ -117,8 +118,9 @@ a {
                 padding: 5% 10%;
 
                 h1 {
-                    font-size: 32px !important;
+                    font-size: 37px !important;
                     line-height: 35px !important;
+                    text-align: center;
                 }
             }
 
@@ -273,7 +275,7 @@ a {
 
 .intro-text {
     @include respond-above(md) {
-        margin: 200px 0 40px;
+        margin: 100px 0 40px;
     }
 
     margin: 10% auto 5%;
@@ -287,6 +289,10 @@ a {
         position: absolute;
         top: -5px;
         left: 345px;
+
+        @include respond-below(md) {
+            display: none;
+        }
 
         img {
             width: 25px;
@@ -341,6 +347,10 @@ a {
 
             p {
                 font-style: italic;
+
+                @include respond-below(md) {
+                    text-align: center;
+                }
             }
         }
 
@@ -405,6 +415,10 @@ a {
 #about-member {
     margin: 100px 0;
 
+    @include respond-below(md) {
+        margin: 100px 0 0px;
+    }
+
     .member {
         @media (max-width: 1649px) {}
 
@@ -428,6 +442,7 @@ a {
                 top: -75px;
                 left: -100px;
                 width: 35%;
+                z-index: -1;
 
 
 
@@ -455,10 +470,13 @@ a {
                 h1 {
                     font-size: 3.75vw;
                     line-height: 3.75vw;
+                    z-index: 1;
 
                     @include respond-below(md) {
-                        font-size: 30px;
-                        line-height: 34px;
+                        font-size: 37px;
+                        line-height: 35px;
+
+
                     }
                 }
             }
@@ -625,8 +643,8 @@ a {
                 line-height: 4vw;
 
                 @include respond-below(md) {
-                    font-size: 32px;
-                    line-height: 34px;
+                    font-size: 37px;
+                    line-height: 35px;
                     padding: 0 5%;
                     text-align: center;
                 }
@@ -644,6 +662,10 @@ a {
     }
 
     margin: 100px 0 50px;
+
+    @include respond-below(md) {
+        margin: 50px 0;
+    }
 
     h1 {
         @include respond-below(md) {
@@ -751,48 +773,77 @@ a {
     }
 }
 
-.advantages {
-    width: 90%;
-    margin: 0 auto;
-    border-top: 1px solid $em-light-blue;
-    border-bottom: 1px solid $em-light-blue;
-    padding: 45px 0;
-    position: relative;
 
-    .advantage-arrow {
-        margin-left: 30px;
-        display: flex;
-        align-items: center;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
 
-        @media (max-width: 1770px) {
-            right: -30px;
-        }
+#membership-advantages {
 
-        i {
-            color: $em-red;
-        }
-    }
 
-    h3 {
-        color: $em-teal;
-        font-weight: 400;
-        font-size: 18px;
+    .advantages {
+        width: 90%;
+        margin: 0 auto;
+        border-top: 1px solid $em-light-blue;
+        border-bottom: 1px solid $em-light-blue;
+        padding: 45px 0;
+        position: relative;
 
-        a {
-            color: $em-red;
-            transition: .3s ease all;
-
+        .header {
             &:hover {
+                cursor: pointer;
+            }
+
+            #collapseOne {
+                margin-top: 40px;
+            }
+        }
+
+        .header[aria-expanded="true"] {
+            .advantage-arrow {
+                i {
+                    transform: rotate(90deg);
+                    transition: .3s easea all;
+
+                }
+            }
+        }
+
+        .advantage-arrow {
+            margin-left: 30px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+            @media (max-width: 1770px) {
+                right: -30px;
+            }
+
+            i {
+                color: $em-red;
+                transition: .3s easea all;
+            }
+        }
+
+        h3 {
+            color: $em-teal;
+            font-weight: 400;
+            font-size: 18px;
+
+            a {
+                color: $em-red;
                 transition: .3s ease all;
-                color: $em-teal;
+                cursor: pointer;
+
+                &:hover {
+                    transition: .3s ease all;
+                    color: $em-teal;
+                }
             }
         }
     }
 }
+
 
 #cta {
     margin: 75px 0;
@@ -884,6 +935,7 @@ a {
 
         .call-btn {
             position: absolute;
+            display: none;
             right: -200px;
 
             @include respond-below(md) {
@@ -965,6 +1017,14 @@ a {
             color: #656366;
             font-size: 18px;
 
+            .social-link {
+                display: inline-block;
+                margin-right: 10px;
+
+
+
+            }
+
             @include respond-below(xs) {
                 font-size: 14px;
             }
@@ -982,11 +1042,18 @@ a {
                     transition: .3s ease all;
                     color: $em-red;
                 }
+
+                i {
+                    &:before {
+                        font-size: 24px;
+                        color: $em-red;
+                    }
+                }
             }
 
 
 
-            &:first-child {
+            &:nth-child(-n+2) {
                 margin-right: 125px;
             }
 
@@ -1002,6 +1069,10 @@ a {
     margin-top: 200px;
     position: relative;
     z-index: 2;
+
+    @include respond-below(md) {
+        margin-top: 100px;
+    }
 }
 
 #contact-form {
@@ -1101,8 +1172,10 @@ a {
                 z-index: 1;
                 margin: 20px 0;
 
+
                 a {
                     background-color: $em-teal;
+                    min-width: 253px;
                 }
             }
 
@@ -1167,7 +1240,7 @@ a {
                         color: $em-red;
                         background-color: $em-light-blue;
                         width: 50%;
-                        border-radius: 20px;
+                        border-radius: 4px;
                         margin: 10px auto;
 
                         @include respond-below(xs) {
