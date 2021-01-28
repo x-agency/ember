@@ -1,27 +1,14 @@
 .btn {
-    font-family: 'sweet-sans-pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
+    background-color: $em-red;
     color: white;
-    background-color: #f16148;
-    border-radius: 21px;
-    padding: 8px 30px;
-    transition: 0.4s ease all;
-    border: 0;
-    position: relative;
-    @include respond-above (lg) {
-        &:hover {
-            background-color: $clutch-purple;
-            transiton: 0.4s ease all;
-            filter: drop-shadow(13px 8px 14px rgba(0,0,0,0.15));
-            -webkit-filter: drop-shadow(13px 8px 14px rgba(0,0,0,0.15));
-            -moz-filter: drop-shadow(13px 8px 14px rgba(0,0,0,0.15));
-            border: 0;
-            color: white;
-            padding: 8px 40px;
-            // transform: translateX(-10px);
-            cursor: pointer;
-        }
+    padding: 15px 40px;
+    @include body-font;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease all;
+
+    &:hover {
+        background-color: $em-teal;
+        color: white;
     }
 }

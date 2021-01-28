@@ -47,13 +47,48 @@ if ( ! defined( 'ABSPATH' ) ) {
         <a class="skip-link screen-reader-text"
             href="#content"><?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?></a>
 
-        <?php astra_header_before(); ?>
-
-        <?php astra_header(); ?>
-
-        <?php astra_header_after(); ?>
-
-        <?php astra_content_before(); ?>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/home"><?php
+				echo file_get_contents( get_theme_file_uri( '/img/ember-logo.svg' ) );
+				?></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <?php
+	 	  wp_nav_menu( array(
+	 	  'menu'              => 'main',
+	 	  'theme_location'    => 'primary',
+	 	  'depth'             => 2,
+	 	  'container'         => 'div',
+	 	  'container_class'   => '',
+	 	  'container_id'      => '',
+	 	  'menu_class'        => 'navbar-nav',
+	 	  'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+	 	  'walker'            => new wp_bootstrap_navwalker())
+	 	  );
+	  ?>
+                </div>
+                <div class="nav-right">
+                    <a class="patients" href="https://www.app.elationemr.com/book/EmberModernMedicine"
+                        target="_blank">For Patients <i class="bi bi-person-fill"></i></a>
+                    <div class="member-btn">
+                        <a href="https://embermodernmedicine.hint.com/signup/membership" target="_Blank">Become A
+                            Member</a>
+                    </div>
+                    <div class="menu-btn">
+                        <!-- Button trigger modal -->
+                        <!-- Button trigger modal -->
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Menu
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
         <div id="content" class="site-content">
 
