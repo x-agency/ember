@@ -110,6 +110,12 @@ a {
             transform: translateY(-50%);
             z-index: 1;
 
+            h1 {
+                span {
+                    font-size: 4.25vw;
+                }
+            }
+
             @include respond-below(md) {
                 position: relative;
                 transform: translateY(0);
@@ -121,6 +127,10 @@ a {
                     font-size: 37px !important;
                     line-height: 35px !important;
                     text-align: center;
+
+                    span {
+                        font-size: 37px !important;
+                    }
                 }
             }
 
@@ -465,6 +475,8 @@ a {
                     font-size: 30px;
 
 
+
+
                 }
 
                 h1 {
@@ -472,9 +484,17 @@ a {
                     line-height: 3.75vw;
                     z-index: 1;
 
+                    span {
+                        font-size: 3.75vw;
+                    }
+
                     @include respond-below(md) {
                         font-size: 37px;
                         line-height: 35px;
+
+                        span {
+                            font-size: 37px;
+                        }
 
 
                     }
@@ -642,11 +662,19 @@ a {
                 font-size: 3.75vw;
                 line-height: 4vw;
 
+                span {
+                    font-size: 3.75vw;
+                }
+
                 @include respond-below(md) {
                     font-size: 37px;
                     line-height: 35px;
                     padding: 0 5%;
                     text-align: center;
+
+                    span {
+                        font-size: 37px;
+                    }
                 }
             }
         }
@@ -879,6 +907,10 @@ a {
                 line-height: 3.5vw;
                 margin-bottom: 30px;
 
+                span {
+                    font-size: 3.5vw;
+                }
+
                 @media (max-width: 1299px) {
                     font-size: 5vw;
                     line-height: 5vw;
@@ -887,6 +919,10 @@ a {
                 @include respond-below(md) {
                     font-size: 36px;
                     line-height: 38px;
+
+                    span {
+                        font-size: 36px;
+                    }
                 }
 
                 span {

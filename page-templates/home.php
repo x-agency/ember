@@ -110,7 +110,7 @@
         <div class="row meet-wrapper">
             <div class="meet-inner">
                 <h1>Meet <span>Brian</span>.</h1>
-                <p>Dr. Brian Blank, board certified in family medicine, is the founder of Ember Modern Medicine. Having
+                <!-- <p>Dr. Brian Blank, board certified in family medicine, is the founder of Ember Modern Medicine. Having
                     completed medical school at the University of North Carolina at Chapel Hill, he went on to study
                     family medicine at Duke University Hospital. Prior to medical training, Dr. Blank worked in cable
                     news. He got a bachelor of journalism at the University of Missouri. He was a researcher, producer
@@ -118,7 +118,24 @@
                     because he has worked at both CNN and Fox, he is by nature fair and balanced. In his free time, Dr.
                     Blank enjoys competing in endurance events. He has completed more than a dozen marathons, a 50-mile
                     ultramarathon and one Ironman Triathlon. Lately, he has been attending CrossFit as well as running
-                    on the Swamp Rabbit Trail with his wife and two daughters.</p>
+                    on the Swamp Rabbit Trail with his wife and two daughters.</p> -->
+                <p>I grew up in the small town of Waterford, PA, delivering newspapers before leaving for the midwest to
+                    study broadcast journalism at the University of Missouri. I then spent the next several years
+                    working in cable news in both Atlanta and New York. In New York, I met my wife and father-in-law, a
+                    longtime primary care physician at the Cleveland Clinic. After many late-night conversations with
+                    him, I decided to switch careers for family medicine. After stops in Boston and Costa Rica, I moved
+                    to Chapel Hill, NC where I completed medical school at UNC. I then did my residency in family
+                    medicine down the street at Duke University Hospital. My wife and I are now blessed with two
+                    beautiful daughters.</p>
+                <p>In 2021, I opened Ember Modern Medicine, a practice I had dreamt about for more than a decade. By
+                    eliminating overpriced insurance restrictions, I am able to spend more time connecting with my
+                    patients and focus on health and wellbeing instead of rushing through 7-minute visits checking
+                    government boxes.</p>
+                <p>In my free time, I enjoy competing in endurance sports. I’ve run more than a dozen marathons,
+                    finished 2nd in a 50-mile ultramarathon, and barely survived an Ironman Triathlon. Lately, I’ve been
+                    attending Swamp Rabbit CrossFit. In 2021, I started a run streak and am attempting to run at least
+                    one mile every single day. When you see me at Ember, ask me how that is going (so we can keep each
+                    other accountable)!</p>
                 <div class="brian-img"><img src="/wp-content/themes/ember/img/brian-img.jpg" alt=""></div>
             </div>
         </div>
@@ -285,7 +302,7 @@
             <div class="cta-text">
                 <h1>Interested in <br><span>learning more</span>?</h1>
                 <p>We’re not quite ready to open the doors just yet, but we’re getting everything ready for you and will
-                    be launching Ember Modern Medicine in <span>early 2021.</span></p>
+                    be launching Ember Modern Medicine in <span>February 2021.</span></p>
                 <p>If you’d like to be one of the first to get early sign-up pricing and want to receive updates as we
                     get closer to launch, head over to the contact page and share your information with us.</p>
                 <a href="/contact" class="btn">Keep Me Updated</a>
