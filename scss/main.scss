@@ -296,9 +296,21 @@ a {
     }
 
     .heart-icon {
-        position: absolute;
-        top: -5px;
-        left: 345px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            display: block;
+            background-image: url(/wp-content/themes/ember/img/svg/heart-icon.svg);
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
 
         @include respond-below(md) {
             display: none;
@@ -1337,7 +1349,7 @@ a {
         text-align: center;
 
         img {
-            width: 30px;
+            width: 25px;
         }
     }
 

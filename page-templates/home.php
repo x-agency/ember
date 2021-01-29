@@ -74,8 +74,8 @@
         </div>
         <div class="row intro-text">
             <div class="col-12 title">
-                <h1>Getting to the <span>heart</span> of good health.</h1>
-                <div class="heart-icon"><img src="/wp-content/themes/ember/img/svg/heart-icon.svg" alt=""></div>
+                <h1>Getting to the <span class="heart-icon">heart</span> of good health.</h1>
+                <!--div class="heart-icon"><img src="/wp-content/themes/ember/img/svg/heart-icon.svg" alt=""></div-->
             </div>
             <div class="col-md-6 block-1">
                 <p>It’s become all too easy to poke holes in today’s healthcare system. Patients routinely complain of
@@ -119,23 +119,9 @@
                     Blank enjoys competing in endurance events. He has completed more than a dozen marathons, a 50-mile
                     ultramarathon and one Ironman Triathlon. Lately, he has been attending CrossFit as well as running
                     on the Swamp Rabbit Trail with his wife and two daughters.</p> -->
-                <p>I grew up in the small town of Waterford, PA, delivering newspapers before leaving for the midwest to
-                    study broadcast journalism at the University of Missouri. I then spent the next several years
-                    working in cable news in both Atlanta and New York. In New York, I met my wife and father-in-law, a
-                    longtime primary care physician at the Cleveland Clinic. After many late-night conversations with
-                    him, I decided to switch careers for family medicine. After stops in Boston and Costa Rica, I moved
-                    to Chapel Hill, NC where I completed medical school at UNC. I then did my residency in family
-                    medicine down the street at Duke University Hospital. My wife and I are now blessed with two
-                    beautiful daughters.</p>
-                <p>In 2021, I opened Ember Modern Medicine, a practice I had dreamt about for more than a decade. By
-                    eliminating overpriced insurance restrictions, I am able to spend more time connecting with my
-                    patients and focus on health and wellbeing instead of rushing through 7-minute visits checking
-                    government boxes.</p>
-                <p>In my free time, I enjoy competing in endurance sports. I’ve run more than a dozen marathons,
-                    finished 2nd in a 50-mile ultramarathon, and barely survived an Ironman Triathlon. Lately, I’ve been
-                    attending Swamp Rabbit CrossFit. In 2021, I started a run streak and am attempting to run at least
-                    one mile every single day. When you see me at Ember, ask me how that is going (so we can keep each
-                    other accountable)!</p>
+                <p>I grew up in the small town of Waterford, PA, delivering newspapers before leaving for the midwest to study broadcast journalism at the University of Missouri. I then spent the next several years working in cable news in both Atlanta and New York. In New York, I met my wife and father-in-law, a longtime primary care physician at the Cleveland Clinic. After many late-night conversations with him, I decided to switch careers to pursue family medicine. After stops in Boston and Costa Rica, I moved to Chapel Hill, NC, where I completed medical school at UNC. I then did my residency in family medicine down the street at Duke University Hospital.</p>
+                <p>In 2021, I opened Ember Modern Medicine, a practice I had dreamt about for more than a decade. By eliminating overpriced insurance restrictions, I can spend more time connecting with my patients and focusing on their health and wellbeing instead of rushing through 7-minute visits checking government boxes.</p>
+                <p>My wife and I are now blessed with two beautiful daughters. In my free time, I enjoy competing in endurance sports. I’ve run more than a dozen marathons, finished 2nd in a 50-mile ultramarathon, and barely survived an Ironman Triathlon. Lately, I’ve been attending Swamp Rabbit CrossFit. In 2021, I started a running streak, attempting to run at least one mile every single day. When you see me at Ember, ask me how that is going (so we can keep each other accountable)!</p>
                 <div class="brian-img"><img src="/wp-content/themes/ember/img/brian-img.jpg" alt=""></div>
             </div>
         </div>

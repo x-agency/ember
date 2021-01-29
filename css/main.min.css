@@ -1012,6 +1012,7 @@ p{font-family:'Poppins',sans-serif;font-size:18px;line-height:22px;font-style:no
 .navbar .nav-right .menu-btn a{background-color:#be5023;padding:18px 34px;-webkit-transition:.3s ease all;transition:.3s ease all;color:#fff5ef}
 .navbar .navbar-brand{padding-left:50px}
 .navbar .navbar-brand svg{width:150px}
+.admin-bar .navbar{top:2em}
 #menu-main{margin:0}
 #menu-main .menu-item{font-family:'Source Sans Pro',sans-ser if;font-weight:600;color:#133738;margin:5px 25px;font-size:18px}
 .page-template-coming-soon p{color:#5a6771}
@@ -1108,7 +1109,8 @@ a:hover{text-decoration:none}
 .intro-grid .intro-grid-item .grid-number .number{font-size:28px;color:#fff5ef;text-align:center;font-weight:600;text-align:center;-webkit-transform:translateY(25%);transform:translateY(25%)}
 .intro-text{margin:10% auto 5%;position:relative}
 .intro-text .title{margin-bottom:30px}
-.intro-text .heart-icon{position:absolute;top:-5px;left:345px}
+.intro-text .heart-icon{position:relative}
+.intro-text .heart-icon::before{position:absolute;content:'';display:block;background-image:url(/wp-content/themes/ember/img/svg/heart-icon.svg);background-repeat:no-repeat;width:25px;height:25px;top:-15px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
 .intro-text .heart-icon img{width:25px}
 .intro-text p span{color:#be5023;font-weight:600}
 #meet-brian .container{padding:0}
@@ -1227,7 +1229,7 @@ a:hover{text-decoration:none}
 .table .col-4,.table .col-5{background:#ede1da}
 .table .row:nth-child(even) .col-4,.table .row:nth-child(even) .col-5{background:#f6f0ed}
 .table .col-3{background:#fae4d7;text-align:center}
-.table .col-3 img{width:30px}
+.table .col-3 img{width:25px}
 .table .row:nth-child(even) .col-3{background:#fdf2eb}
 .table [class*="col"]{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:40px;text-align:center;padding:1em}
 .table [class*="col"] p{margin:0}

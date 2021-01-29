@@ -24,8 +24,8 @@ if ( ! defined( 'ABSPATH' ) ) {
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link href="https://db.onlinewebfonts.com/c/34bdef416280c2ed8a6c311aa9af123d?family=PoynterOSDisp+Roman"
-        rel="stylesheet" type="text/css" />
+    <!--link href="https://db.onlinewebfonts.com/c/34bdef416280c2ed8a6c311aa9af123d?family=PoynterOSDisp+Roman"
+        rel="stylesheet" type="text/css" /-->
 
     <?php wp_head(); ?>
     <?php astra_head_bottom(); ?>
