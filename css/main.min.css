@@ -1127,8 +1127,8 @@ a:hover{text-decoration:none}
 #about-member .member .benefits-left .about-flame{position:absolute;top:-75px;left:-100px;width:35%;z-index:-1}
 #about-member .member .benefits-left .about-flame img{width:100%}
 #about-member .member .benefits-left .about-title{position:absolute;top:50%;left:-50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
-#about-member .member .benefits-left .about-title h1{font-size:3.75vw;line-height:3.75vw;z-index:1}
-#about-member .member .benefits-left .about-title h1 span{font-size:3.75vw}
+#about-member .member .benefits-left .about-title h1{font-size:calc(max(37px, min(3.75vw, 61px)));line-height:3.75vw;z-index:1}
+#about-member .member .benefits-left .about-title h1 span{font-size:calc(max(37px, min(3.75vw, 61px)))}
 #about-member .member .benefits-left .about-btn a{position:absolute;bottom:0;left:0;z-index:2;padding:20px 55px;background-color:#fff5ef;color:#be5023;-webkit-transition:.3s ease all;transition:.3s ease all;font-family:'Source Sans Pro',sans-serif;font-weight:600;font-size:20px}
 #about-member .member .benefits-left .about-btn a:hover{-webkit-transition:.3s ease all;transition:.3s ease all;background-color:#be5023;color:#fff5ef}
 #about-member .member .member-block{margin:20px 0 0 50px;width:25%}
@@ -1164,8 +1164,8 @@ a:hover{text-decoration:none}
 #membership-advantages .advantages .header #collapseOne{margin-top:40px}
 #membership-advantages .advantages .header[aria-expanded="true"] .advantage-arrow i{-webkit-transform:rotate(90deg);transform:rotate(90deg);-webkit-transition:.3s easea all;transition:.3s easea all}
 #membership-advantages .advantages .advantage-arrow{margin-left:30px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute;right:0}
-#membership-advantages .advantages .advantage-arrow i{color:#be5023;-webkit-transition:.3s easea all;transition:.3s easea all}
-#membership-advantages .advantages h3{color:#133738;font-weight:400;font-size:18px}
+#membership-advantages .advantages .advantage-arrow i{color:#be5023;-webkit-transition:.3s ease all;transition:.3s ease all}
+#membership-advantages .advantages h3{color:#133738;font-weight:400;font-size:18px;text-align:left}
 #membership-advantages .advantages h3 a{color:#be5023;-webkit-transition:.3s ease all;transition:.3s ease all;cursor:pointer}
 #membership-advantages .advantages h3 a:hover{-webkit-transition:.3s ease all;transition:.3s ease all;color:#133738}
 #cta{margin:75px 0}
@@ -1910,7 +1910,7 @@ a:hover{text-decoration:none}
 .text-xl-left{text-align:left !important}
 .text-xl-right{text-align:right !important}
 .text-xl-center{text-align:center !important}
-}@media(min-width:1650px){.container{max-width:70%}
+}@media(min-width:1650px){.container{max-width:70%;max-width:1344px}
 }@media(max-width:1770px){#membership-advantages .advantages .advantage-arrow{right:-30px}
 }@media(max-width:1750px){#meet-brian .meet-wrapper .brian-img{left:10px}
 }@media(max-width:1680px){#about-member .member .member-block{width:27%}
@@ -1952,6 +1952,7 @@ a:hover{text-decoration:none}
 #meet-brian .meet-wrapper .brian-img{width:250px}
 #about-member .member .services-right img{width:75%}
 #membership .pricing-grid .price-item{width:30%}
+#membership .pricing-grid .price-item:last-child .price-number{width:100%}
 }@media(max-width:991.98px){.table-responsive-lg{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar}
 .table-responsive-lg>.table-bordered{border:0}
 .navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{padding-right:0;padding-left:0}
@@ -1979,14 +1980,16 @@ h3{text-align:center}
 #meet-brian .meet-wrapper .brian-img{top:-125px;left:50% !important;width:150px !important;-webkit-transform:translate(-50%,0);transform:translate(-50%,0)}
 #meet-brian .quote-block{font-size:20px;line-height:24px}
 #about-member{margin:100px 0 0}
-#about-member .member .benefits-left{width:100% !important;margin:0}
+#about-member .member .benefits-left{width:100% !important;margin:0;text-align:center}
 #about-member .member .benefits-left .about-title{position:relative;left:0;top:0;-webkit-transform:translateY(0);transform:translateY(0);font-size:30px}
 #about-member .member .benefits-left .about-title h1{font-size:37px;line-height:35px}
 #about-member .member .benefits-left .about-title h1 span{font-size:37px}
 #about-member .member .benefits-left .about-btn{display:none}
-#about-member .member .member-block{width:100%;margin:25px 0}
+#about-member .member .member-block{width:100%;margin:25px 0;text-align:center}
 #about-member .member .services-right img{width:100%}
 #about-member .member.member-services{margin-top:50px}
+#about-member .member.member-services .member-block{text-align:left;width:30ch;margin:0 auto}
+#about-member .member.member-services .services-right{margin:0 auto}
 #about-member .member.member-services .services-title{position:relative;top:0;-webkit-transform:translateY(0);transform:translateY(0)}
 #about-member .member.member-services .services-title h1{font-size:37px;line-height:35px;padding:0 5%;text-align:center}
 #about-member .member.member-services .services-title h1 span{font-size:37px}
@@ -1996,8 +1999,9 @@ h3{text-align:center}
 #cta .cta-block .cta-text h1{font-size:36px;line-height:38px}
 #cta .cta-block .cta-text h1 span{font-size:36px}
 #EmberFooter{margin:25px auto}
-#EmberFooter .footer-top{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 0 30px 0}
+#EmberFooter .footer-top{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 0 30px 0;-ms-flex-wrap:wrap;flex-wrap:wrap}
 #EmberFooter .footer-top .call-btn{position:relative;right:0 !important}
+#EmberFooter .footer-top .footer-logo{width:100%;text-align:center}
 #EmberFooter .footer-top .footer-links{margin:50px 0}
 #EmberFooter .footer-top .footer-links ul{text-align:center}
 #EmberFooter .footer-top .footer-links ul li{width:100%;margin:0}
@@ -2014,6 +2018,7 @@ h3{text-align:center}
 }@media(max-width:767.98px){.table-responsive-md{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar}
 .table-responsive-md>.table-bordered{border:0}
 .navbar-expand-md>.container,.navbar-expand-md>.container-fluid{padding-right:0;padding-left:0}
+}@media(max-width:767px){#membership .pricing-grid .price-item .price-number{width:100%}
 }@media(max-width:600px){.popup .frm_half:nth-of-type(5),.popup .frm_half:nth-of-type(6){padding:0 calc(min(4rem, 7vw))}
 .popup #form_comingsoon-popup .frm_button_submit{bottom:-1.6em}
 .popup svg:nth-of-type(2){bottom:-1em;right:-77.5vw}

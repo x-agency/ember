@@ -41,6 +41,7 @@ body {
 .container {
     @media (min-width: 1650px) {
         max-width: 70%;
+        max-width: 1344px;
     }
 
     @include respond-below(xs) {
@@ -451,6 +452,7 @@ a {
             @include respond-below(md) {
                 width: 100% !important;
                 margin: 0;
+                text-align: center;
             }
 
 
@@ -491,12 +493,12 @@ a {
                 }
 
                 h1 {
-                    font-size: 3.75vw;
+                    font-size: calc(max(37px, min(3.75vw, 61px)));
                     line-height: 3.75vw;
                     z-index: 1;
 
                     span {
-                        font-size: 3.75vw;
+                        font-size: calc(max(37px, min(3.75vw, 61px)));
                     }
 
                     @include respond-below(md) {
@@ -554,6 +556,7 @@ a {
             @include respond-below(md) {
                 width: 100%;
                 margin: 25px 0;
+                text-align: center;
             }
 
             .member-title {
@@ -620,6 +623,22 @@ a {
         }
 
         position: relative;
+
+        .member-block {
+
+            @include respond-below(md) {
+                text-align: left;
+                width: 30ch;
+                margin: 0 auto;
+            }
+        }
+
+        .services-right {
+
+            @include respond-below(md) {
+                margin: 0 auto;
+            }
+        }
 
         .services-list {
             ul {
@@ -752,6 +771,10 @@ a {
                     font-size: 35px;
                     letter-spacing: normal;
                     margin-bottom: 20px;
+
+                    @include respond-below(lg) {
+                        width: 100%;
+                    }
                 }
             }
 
@@ -765,6 +788,10 @@ a {
                 font-size: 70px;
                 font-weight: 400;
                 letter-spacing: -2px;
+
+                @include respond-below(sm) {
+                    width: 100%;
+                }
 
                 span {
                     font-size: 30px;
@@ -860,7 +887,7 @@ a {
 
             i {
                 color: $em-red;
-                transition: .3s easea all;
+                transition: .3s ease all;
             }
         }
 
@@ -868,6 +895,7 @@ a {
             color: $em-teal;
             font-weight: 400;
             font-size: 18px;
+            text-align: left;
 
             a {
                 color: $em-red;
@@ -978,6 +1006,7 @@ a {
         @include respond-below(md) {
             justify-content: center;
             padding: 0 0 30px 0;
+            flex-wrap: wrap;
         }
 
         .call-btn {
@@ -1002,6 +1031,12 @@ a {
 
 
         .footer-logo {
+
+            @include respond-below(md) {
+                width: 100%;
+                text-align: center;
+            }
+
             img {
                 width: 230px;
             }
