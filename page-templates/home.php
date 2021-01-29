@@ -282,7 +282,7 @@
                                     <p>New Patient Visit (Code 99203/99204)</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$206-$315</p>
@@ -293,7 +293,7 @@
                                     <p>Established Patient Visit (99213/99214))</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$142-$206</p>
@@ -304,7 +304,7 @@
                                     <p>EKG</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$64</p>
@@ -315,7 +315,7 @@
                                     <p>Laceration Repair/Suture</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$294</p>
@@ -326,7 +326,7 @@
                                     <p>Skin Biopsy</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$120-$600</p>
@@ -337,7 +337,7 @@
                                     <p>Excision of Skin Lesion</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$600</p>
@@ -348,7 +348,7 @@
                                     <p>Sports/Camp/OMV Physical</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$50</p>
@@ -359,7 +359,7 @@
                                     <p>Urinalysis</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$14</p>
@@ -370,7 +370,7 @@
                                     <p>Ear Wax Removal</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$118</p>
@@ -381,7 +381,7 @@
                                     <p>Urine Pregnancy Test</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$25</p>
@@ -392,7 +392,7 @@
                                     <p>Strep Throat Test</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$34</p>
@@ -403,7 +403,7 @@
                                     <p>Influenza Test</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$40</p>
@@ -414,7 +414,7 @@
                                     <p>Finger Glucose Test</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$15</p>
@@ -425,7 +425,7 @@
                                     <p>Incise/Drain Abscess</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$239</p>
@@ -436,7 +436,7 @@
                                     <p>DMV/State Forms</p>
                                 </div>
                                 <div class="col-3">
-                                    <img src="http://ember.local/wp-content/uploads/2020/11/favicon.png"/>
+                                    <img src="/wp-content/uploads/2020/11/favicon.png"/>
                                 </div>
                                 <div class="col-4">
                                     <p>$50</p>
