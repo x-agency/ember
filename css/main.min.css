@@ -1972,7 +1972,7 @@ h3{text-align:center}
 .home-hero .header-wrapper .header-slider-wrapper .slider-bottom-text span{font-size:18px}
 .home-hero .header-wrapper .header-slider-wrapper .slider-bottom-text span{font-size:18px !important}
 .intro-grid .intro-grid-item{margin-bottom:50px}
-.intro-text .heart-icon{display:none}
+.intro-text .heart-icon::before{display:none}
 #meet-brian .meet-wrapper{margin:200px 0 75px}
 #meet-brian .meet-wrapper .meet-inner{width:100%;margin:0}
 #meet-brian .meet-wrapper .meet-inner p{text-align:center}
